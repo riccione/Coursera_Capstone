@@ -17,4 +17,4 @@ I need the list of zip codes for Orlando, FL with geo coordinates (latitude and 
 1.	The best way to get it – download ready to use csv file from [ODS](https://public.opendatasoft.com/explore/dataset/us-zip-code-latitude-and-longitude/table/) using wget or curl directly in the Jupyter Notebook
 2.	Foursquare API to explore venue types surrounding each zip. Foursquare outlines these high-level venue categories with more sub-categories. I’ll be querying the number of venues in a 1000m radius.
 3.	I need to remove unused columns and data is ready to use.
-4.	Analyze data with Pandas, visualise it with matplotlib and Folium, and then using k-mean clustering to cluster districts of the city.
+4.	Analyze data with Pandas, visualize it with matplotlib and Folium, and then using k-mean clustering to cluster districts of the city.
