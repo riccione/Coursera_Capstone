@@ -1,0 +1,74 @@
+,Station,Opened,Type,Line,Latitude,Longitude
+0,Alessandrino,2014,underground,C,41.871349,12.578700999999999
+1,Anagnina,1980,underground,A,41.842778,12.586111
+2,Arco di Travertino,1980,underground,A,41.866704799999994,12.5350705
+3,Baldo degli Ubaldi,2000,underground,A,41.898889000000004,12.432777999999999
+4,Barberini - Fontana di Trevi,1980,underground,A,41.903889,12.488889
+5,Basilica San Paolo,1955,overground,B,41.856111,12.478194
+6,Battistini,2000,underground,A,41.906461,12.414722
+7,Bologna,1990,underground,B,41.913333,12.520556
+8,Bolognetta,2014,overground,C,41.865134000000005,12.680883
+9,Borghesiana,2014,in trincea,C,41.864707,12.6673
+10,Castro Pretorio,1990,underground,B,41.906110999999996,12.505556
+11,Cavour,1955,underground,B,41.895,12.493611
+12,Cinecittà,1980,underground,A,41.8493002,12.5743771
+13,Cipro,1999,underground,A,41.9075,12.4475
+14,Circo Massimo,1955,underground,B,41.883611,12.488056
+15,Colli Albani,1980,underground,A,41.8694,12.5301
+16,Colosseo,1955,underground,B,41.891389000000004,12.491389
+17,Conca d'Oro,2012,underground,B,41.939444,12.527778
+18,Cornelia,2000,underground,A,41.902221999999995,12.425278
+19,Due Leoni-Fontana Candida,2014,surface,C,41.864907,12.658093
+20,EUR Fermi,1955,in artificial gallery,B,41.828610999999995,12.471111
+21,EUR Magliana,1955,surface,B,41.839444,12.463333
+22,EUR Palasport,1955,in artificial gallery,B,41.83,12.466667
+23,Finocchio,2014,underground,C,41.865482,12.687809
+24,Flaminio - Piazza del Popolo,1980,underground,A,41.911944,12.475833
+25,Furio Camillo,1980,underground,A,41.874722,12.523056
+26,Garbatella,1990,surface,B,41.866667,12.483333
+27,Gardenie,2015,underground,C,41.8863,12.5617
+28,Giardinetti,2014,in trincea,C,41.864275,12.610113
+29,Giulio Agricola,1980,underground,A,41.8565979,12.562632699999998
+30,Graniti,2014,surface,C,41.86569,12.69802
+31,Grotte Celoni,2014,surface,C,41.862666,12.646096
+32,Jonio,2015,underground,B,41.946389,12.528056
+33,Laurentina,1955,in artificial gallery,B,41.826944,12.481111
+34,Lepanto,1980,underground,A,41.911389,12.466111
+35,Libia,2012,underground,B,41.932778000000006,12.520556
+36,Lodi,2015,underground,C,41.886732,12.517762
+37,Lucio Sestio,1980,underground,A,41.859696899999996,12.5572829
+38,Malatesta,2015,underground,C,41.8873,12.5402
+39,Manzoni,1980,underground,A,41.890278,12.506944
+40,Marconi,1994,surface,B,41.849444,12.475556
+41,Mirti,2015,underground,C,41.8811,12.5666
+42,Monte Compatri-Pantano,2014,overground,C,41.865688,12.707623
+43,Monti Tiburtini,1990,underground,B,41.915833,12.547778
+44,Numidio Quadrato,1980,underground,A,41.8621329,12.5526576
+45,Ottaviano - San Pietro - Musei Vaticani,1980,underground,A,41.909444,12.458056
+46,Parco di Centocelle,2014,underground,C,41.874619,12.56803
+47,Pietralata,1990,underground,B,41.914722,12.555
+48,Pigneto,2015,underground,C,41.888456,12.528178
+49,Piramide,1955,in trincea,B,41.875556,12.482222
+50,Policlinico,1990,underground,B,41.908889,12.511667
+51,Ponte Lungo,1980,underground,A,41.8778448,12.518957400000001
+52,Ponte Mammolo,1995,overground,B,41.920556,12.565
+53,Porta Furba - Quadraro,1980,underground,A,41.86379,12.5482062
+54,Quintiliani,2003,underground,B,41.915556,12.538611
+55,Re di Roma,1980,underground,A,41.881635100000004,12.5144046
+56,Rebibbia,1990,underground,B,41.925833000000004,12.573056
+57,Repubblica - Teatro dell'Opera,1980,underground,A,41.9025,12.495556
+58,San Giovanni,1980,underground,AC,41.885278,12.509444
+59,Santa Maria del Soccorso,1990,underground,B,41.915556,12.560833
+60,Sant Agnese - Annibaliano,2012,underground,B,41.923889,12.515833
+61,Spagna,1980,underground,A,41.9065,12.483056
+62,Subaugusta,1980,underground,A,41.8538307,12.5677011
+63,Teano,2015,underground,C,41.88923,12.551311
+64,Termini,1955,underground,AB,41.901542,12.500596
+65,Tiburtina,1990,underground,B,41.910833000000004,12.529444
+66,Torre Angela,2014,surface,C,41.864318,12.625711
+67,Torre Gaia,2014,surface,C,41.864084999999996,12.635553999999999
+68,Torre Maura,2014,underground,C,41.866915999999996,12.596878
+69,Torre Spaccata,2014,underground,C,41.869,12.5866
+70,Torrenova,2014,surface,C,41.86332,12.61684
+71,Valle Aurelia,1999,underground,A,41.903056,12.441667
+72,Vittorio Emanuele,1980,underground,A,41.894444,12.504167
