@@ -1,20 +1,28 @@
 # Report
 
-# Coursera Capstone - Business opportunities in Orlando, FL, USA
+# Coursera Capstone Notebook: Clustering of Rome Subway stations
 
-## April, 2020
+## May, 2020
+
+## Rome, Italy
 
 ## Introduction
-Orlando is one of the most visited cities in the world primarily driven by tourism, major events, and convention traffic, in 2018 the city drew more than 75 million visitors. The two largest and most internationally renowned tourist attractions in the Orlando area include the Walt Disney World Resort, opened by the Walt Disney Company in 1971, and located approximately 21 miles (34 km) southwest of Downtown Orlando in Bay Lake; and the Universal Orlando Resort, opened in 1990 as a major expansion of Universal Studios Florida. With the exception of Walt Disney World, most major attractions are located along International Drive with one of these attractions being the Wheel at ICON Park Orlando. The city is also one of the busiest American cities for conferences and conventions; the Orange County Convention Center is the second-largest convention facility in the United States [Wikipepia](https://en.wikipedia.org/wiki/Orlando,_Florida). 
-
-## Business Problem
-I am going to do a project against Orlando, FL. Orlando, FL is an extremely popular touristic destination. The main attraction for tourist are theme parks. 
-For this project I want to look at the different districts of Orlando and classify them. To split Orlando to districts I am going to use the simple approach – zip codes. Orlando contains 62 postal codes.
-This will give an idea what kind of business work better in each district. It will be useful data for business, because it will help to choose the right district to run particular business.
+The Rome Metro (Metropolitana di Roma) started operation in 1955. It has three lines: A (orange), B (blue) and C (green). It has 73 stations, the length of it is about 60 km. The lines A and B intersect at Termini Station, which is also the main train station in Rome. Annually it serves for 279 million of people (2012).
+We want to look at the areas surrounding metro stations and cluster them. The areas in the historical center of Rome have a lot of touristic attractions (Vatican, Colosseum, Trevi Fountain, Spanish Steps) and hotels. Some neighborhoods are in residential areas, other in commercial. The venues near to the station determine how people use it.
+Analysis of data can show the primary purpose of the station. This data is useful for commercial business (location to open a new business), for local government (can help them in city planning), and for subway development in the future (where open new stations).
 
 ## Data
-I need the list of zip codes for Orlando, FL with geo coordinates (latitude and longitude)
-1.	The best way to get it – download ready to use csv file from [ODS](https://public.opendatasoft.com/explore/dataset/us-zip-code-latitude-and-longitude/table/) using wget or curl directly in the Jupyter Notebook
-2.	Foursquare API to explore venue types surrounding each zip. Foursquare outlines these high-level venue categories with more sub-categories. I’ll be querying the number of venues in a 1000m radius.
-3.	I need to remove unused columns and data is ready to use.
-4.	Analyze data with Pandas, visualize it with matplotlib and Folium, and then using k-mean clustering to cluster districts of the city.
+We need several pieces of data to start our study.
+1. List of all subway stations and their geo data (latitude, longitude). The list of station is easy to get from [Wikipedia](https://it.wikipedia.org/wiki/Stazioni_della_metropolitana_di_Roma). However, this table does not contain geo data. To get geo data we can use prepared csv file [github]( https://raw.githubusercontent.com/riccione/Coursera_Capstone/master/Rome_Metro.csv), which contains list of the stations and geo data. By merging two sources of data we can get this dataset.
+2. Foursquare API to explore venue types surrounding each station. Foursquare outlines these high-level venue categories with more sub-categories. 
+* Arts & Entertainment (4d4b7104d754a06370d81259)
+* College & University (4d4b7105d754a06372d81259)
+* Event (4d4b7105d754a06373d81259)
+* Food (4d4b7105d754a06374d81259)
+* Nightlife Spot (4d4b7105d754a06376d81259)
+* Outdoors & Recreation (4d4b7105d754a06377d81259)
+* Professional & Other Places (4d4b7105d754a06375d81259)
+* Residence (4e67e38e036454776db1fb3a)
+* Shop & Service (4d4b7105d754a06378d81259)
+* Travel & Transport (4d4b7105d754a06379d81259)
+We will query the number of venues in each category in a 1000m (walking distance) radius around each station. This is the main way to analyse data, because I would like to have comparable data with similar project related to the Moscow subway [Classification of Moscow Metro stations using Foursquare data]( https://towardsdatascience.com/classification-of-moscow-metro-stations-using-foursquare-data-fb8aad3e0e4). Thank you for creation study against Moscow metro, it inspired me and move forward.
